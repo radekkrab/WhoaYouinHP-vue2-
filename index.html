@@ -43,7 +43,7 @@
             <div class="app__body">
                 <div class="app__body-inner">
                     <h2 class="app__body-title">
-                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                        <i class="fa fa-magic" aria-hidden="true"></i>
                         Ты сам вершишь свою судьбу
                     </h2>
                     <div class="app__body-top">
@@ -90,7 +90,7 @@
         <div class="app" v-show="showQuestions" >
             <div class="app__header">
                 <div class="app__header-inner">
-                    <div class="app__count"># {{ number+1 }}</div>
+                    <div class="app__count"># {{ number+1 }} из 7</div>
                     <div class="app__text">{{ questions[number][0] }}</div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                 <div class="app__results-inner">
                     <div class="results__title">{{ results[resultMagic].name }}</div>
                     <div class="results__img">
-                        <img :src="'img/'+resultMagic+'_logo.png'">
+                        <img :src="'img/'+resultMagic+'_logo.jpg'">
                     </div>
                     <div class="result__text-box">
                         <p class="results__text">{{ results[resultMagic].description }}</p>

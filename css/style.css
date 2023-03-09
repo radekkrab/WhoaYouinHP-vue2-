@@ -26,6 +26,7 @@ i.fa {
 }
 .main {
     background-image: url(../img/background__main.jpg);
+    background-size: cover;
     background-repeat: repeat-x;
     animation: slide 90s linear infinite;
 }
@@ -196,9 +197,13 @@ i.fa-star {
 }
 .results__img img {
     width: 250px;
+    border-radius: 10px;
 }
 .result__text-box {
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px;
     margin-bottom: 20px;
+    padding: 10px;
     font-size: 16px;
     line-height: 20px;
 }

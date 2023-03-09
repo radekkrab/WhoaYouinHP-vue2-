@@ -84,7 +84,7 @@
                     this.totalGames++;
                     localStorage.setItem('sc2TotalGames', this.totalGames)
                     //Дементор
-                    if(this.score.dementor > this.score.muggle) {
+                    if(this.score.dementor > this.score.muggle && this.score.dementor > this.score.wizardkind) {
                         this.goToResults('dementor')
                         this.totalGame.dementor++
                     }
